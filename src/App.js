@@ -1,16 +1,16 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navigation from './components/navigation/Navigation';
-import Welcome from './pages/Welcome';
+import Header from './components/header/Header';
+import Home from './pages/Home';
 
 
 const App = () => (
     <BrowserRouter>
-      <div className="">
-        <Navigation />
+      <>
+        <Header />
         <Routes>
-          <Route path="/" element={<Welcome />} />
+          <Route path="/" element={<Home />} />
         </Routes>
-      </div>
+      </>
     </BrowserRouter>
 );
 
