@@ -26,6 +26,7 @@
     "react-scripts": "5.0.1",
     "react-spinners-kit": "^1.9.1",
     "redux-persist": "^6.0.0",
+    "sass": "^1.69.7",
     "swiper": "^11.0.5",
     "web-vitals": "^2.1.4"
   },
