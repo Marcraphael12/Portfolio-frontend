@@ -1,6 +1,6 @@
 export default function Name() {
   return (
-    <div>
+    <div className="name df-c">
       <span>
         Hello
       </span>

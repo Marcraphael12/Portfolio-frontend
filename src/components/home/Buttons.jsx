@@ -1,6 +1,6 @@
 export default function Buttons() {
   return (
-    <div>
+    <div className="buttons">
       <button>
         get in touch
       </button>

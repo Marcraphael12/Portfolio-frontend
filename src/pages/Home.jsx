@@ -1,9 +1,11 @@
 import Name from "../components/home/Name";
 import Text from "../components/home/Text";
 import Buttons from "../components/home/Buttons";
+
+import '../styles/home.scss';
 const Home = () => {
   return (
-    <section>
+    <section id="Home" className="df-c">
       <Name />
       <Text />
       <Buttons />
@@ -12,3 +14,4 @@ const Home = () => {
 }
 
 export default Home;
+
