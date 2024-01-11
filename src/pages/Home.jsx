@@ -6,9 +6,11 @@ import '../styles/home.scss';
 const Home = () => {
   return (
     <section id="Home" className="df-c">
-      <Name />
-      <Text />
-      <Buttons />
+      <div className="df-c blur">
+        <Name />
+        <Text />
+        <Buttons />
+      </div>
     </section>
   )
 }
