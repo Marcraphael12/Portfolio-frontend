@@ -6,6 +6,7 @@ header {
 	padding: 10px;
 	background-color: rgba(0, 0, 0, 0.645);
 	position: absolute;
+	z-index: 3;
 
 	>.logo {
 		border: solid 1px red;
