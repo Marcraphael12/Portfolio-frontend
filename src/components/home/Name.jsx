@@ -1,12 +1,12 @@
 export default function Name() {
   return (
-    <div className="name df-c">
+    <h1 className="name df-c">
       <span>
         Hello
       </span>
       <span>
-        my name is Marc raphael 
+        I&lsquo;m Marc
       </span>
-    </div>
+    </h1>
   )
 }
