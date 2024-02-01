@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Home from './pages/Home';
 import Projects from './pages/Projects'
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
         </Routes>
         <Projects />
         <Contact />
+        <Footer />
       </>
     </BrowserRouter>
 );
