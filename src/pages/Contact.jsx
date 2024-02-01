@@ -1,22 +1,28 @@
+import '../styles/contact.scss';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquarePhone } from '@fortawesome/free-solid-svg-icons'
+import { faComments } from '@fortawesome/free-regular-svg-icons';
 const Contact = ()=> {
   return (
     <section id='Contact' className='flex flex-col'>
-      <div>
-        <h1>
+      <div className=''>
+        <h1 className='flex flex-col items-center text-3xl font-bold mb-3'>
           Get in touch
         </h1>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sapiente reiciendis hic, corporis aspernatur.
+        <p className='mb-4'>
+          Any suggestion, issue, criticism, or you just want to say hello,
+          feel free, i will be glad to answer yo!
         </p>
       </div>
 
-      <form action="">
-        <h2>
+      <form action="" className='flex flex-col mt-4 mb-6'>
+        <h2 className='text-xl font-bold'>
           Whats up?
         </h2>
 
-        <div>
+        <div className='flex flex-col'>
           <label htmlFor="name">Name(required)</label>
           <input type="text" name="name" id="" placeholder="Full name"/>
 
@@ -29,23 +35,25 @@ const Contact = ()=> {
           <label htmlFor="comment">Comment(required)</label>
           <textarea name="comment" id="" cols="30" rows="10" placeholder="Type comment"></textarea>
 
-          <button type="submit">Contact me</button>
+          <button type="submit" className='mt-4 font-bold text-md mb-5'>Contact me</button>
         </div>
       </form>
 
-      <div>
-        <h2>What is on your plan? Call me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, aliquid? Commodi modi vitae architecto suscipit temporibus natus excepturi in sunt adipisci repudiandae fuga vero, aperiam ipsam asperiores, corporis eaque eligendi?</p>
+      <div className='flex flex-col mt-4'>
+        <h2 className='text-xl font-bold mb-4'>What is on your plan? Call me</h2>
+        <p className='mb-5'>You can get my contact information here and if you like, you can checkout my profil on social networks.</p>
 
-        <ul>
+        <ul className='flex flex-col'>
           <li>
-            <span>icon</span>
+            <span>
+            <FontAwesomeIcon icon={faComments} />
+            </span>
             <span>marcraphael979@gmail.com</span>
           </li>
 
           <li>
             <span>
-              icon
+            <FontAwesomeIcon icon={faSquarePhone} />
             </span>
             <span>
               +237 698 334 054
