@@ -1,5 +1,7 @@
 import Navigation from "../navigation/Navigation";
 import '../../styles/header.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHamburger } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <header className="df-i">
@@ -15,7 +17,7 @@ const Header = () => {
       </div>
       <div className="menu-btn df-c">
         <button type="button" className="df-c">
-          <span></span><span></span><span></span>
+          <FontAwesomeIcon icon={faHamburger} />
         </button>
       </div>
       <Navigation />
