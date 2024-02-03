@@ -40,7 +40,7 @@ const About = ()=> {
 
 			<div className='flex flex-col bg-[#28027411]'>
 				<h3 className='text-xl font-bold'>
-					Langauges skills
+					Languages skills
 				</h3>
 
 				<p>
