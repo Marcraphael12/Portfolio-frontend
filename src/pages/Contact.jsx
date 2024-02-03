@@ -17,23 +17,23 @@ const Contact = ()=> {
         </p>
       </div>
 
-      <form action="" className='flex flex-col mt-4 mb-6'>
+      <form action="" className='flex flex-col mt-4 mb-6 p-6'>
         <h2 className='text-xl font-bold'>
           Whats up?
         </h2>
 
         <div className='flex flex-col'>
           <label htmlFor="name">Name(required)</label>
-          <input type="text" name="name" id="" placeholder="Full name"/>
+          <input type="text" name="name" id="name" autoComplete='true' placeholder="Full name"/>
 
           <label htmlFor="email">Email(required)</label>
-          <input type="email" name="email" id="" placeholder="Email address"/>
+          <input type="email" name="email" id="email" autoComplete='true' placeholder="Email address"/>
 
           <label htmlFor="subject">Subject(required)</label>
-          <input type="text" name="subject" id="" placeholder="Subject"/>
+          <input type="text" name="subject" id="subject" autoComplete='true' placeholder="Subject"/>
 
           <label htmlFor="comment">Comment(required)</label>
-          <textarea name="comment" id="" cols="30" rows="10" placeholder="Type comment"></textarea>
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type comment"></textarea>
 
           <button type="submit" className='mt-4 font-bold text-md mb-5'>Contact me</button>
         </div>
