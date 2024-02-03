@@ -1,0 +1,36 @@
+nav {
+	display: none;
+	color: #fff;
+	width: 375px;
+	height: auto;
+
+
+	@media (min-width: 600px) {
+		display: block;
+
+		>ul {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			text-transform: lowercase;
+
+			>li {
+
+
+				>a {
+					padding: 5px 10px;
+					border-radius: 10px;
+
+					&:focus {
+						background-color: #0400ff;
+						color: #fff;
+					}
+
+					&:hover {
+						background-color: #ff5400;
+					}
+				}
+			}
+		}
+	}
+}
