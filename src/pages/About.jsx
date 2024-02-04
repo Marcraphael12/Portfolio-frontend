@@ -2,14 +2,14 @@ import '../styles/about.scss'
 const About = ()=> {
 	return (
 		<section id="About" className='flex flex-col'>
-			<div>
-				<h1 className='flex flex-col items-center text-3xl font-bold mb-3'>Coding is a passion</h1>
-				<p className=''>
+			<div className='p-3 text'>
+				<h1 className='text-3xl font-bold mb-6'>Coding is a passion!</h1>
+				<p className='mb-6'>
 					Hello, I am Marc; A 24 -year-old full-stack developer. I started programming in 2019 and continued to specialize in 2021. These days, along with programming, I study about startups and businesses, and besides all this, I play the dulcimer and watch my favorite series. am working!
 				</p>
 			</div>
 
-			<div className='Hire-btn flex flex-wrap justify-center items-center'>
+			<div className='Hire-btn flex flex-wrap justify-center items-center p-3'>
 				<h3 className='text-lg font-bold text-white'>
 					I am available for remote jobs!
 				</h3>
@@ -19,7 +19,7 @@ const About = ()=> {
 				</button>
 			</div>
 
-			<div className='bg-[#28027411]'>
+			<div className='bg-[#28027411] p-6'>
 				<h3 className='text-xl font-bold'>
 					Tech Skills
 				</h3>
@@ -38,7 +38,7 @@ const About = ()=> {
 				</ul>
 			</div>
 
-			<div className='flex flex-col bg-[#28027411]'>
+			<div className='flex flex-col bg-[#28027411] p-6'>
 				<h3 className='text-xl font-bold'>
 					Languages skills
 				</h3>
