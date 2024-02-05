@@ -9,17 +9,7 @@ const About = ()=> {
 				</p>
 			</div>
 
-			<div className='Hire-btn flex flex-wrap justify-center items-center p-3'>
-				<h3 className='text-lg font-bold text-white'>
-					I am available for remote jobs!
-				</h3>
-
-				<button className='flex items-center text-md font-semibold'>
-					Hire me now!
-				</button>
-			</div>
-
-			<div className='bg-[#28027411] p-6'>
+			<div className='bg-[#0400ff18] p-6 skills'>
 				<h3 className='text-xl font-bold'>
 					Tech Skills
 				</h3>
@@ -28,17 +18,25 @@ const About = ()=> {
 					Here you can see my skills, one of the fascinations of the computer world is the momentary changes of technologies, but I try to update my knowledge every day and experience new technologies.
 				</p>
 
-				<ul className='flex flex-wrap'>
-					<li>A skill</li>
-					<li>A skill</li>
-					<li>A skill</li>
-					<li>A skill</li>
-					<li>A skill</li>
-					<li>A skill</li>
+				<ul className='flex flex-wrap justify-evenly'>
+					<li>Ruby</li>
+					<li>Ruby on Rails</li>
+					<li>APIs</li>
+					<li>Postgresql</li>
+					<li>Javascript</li>
+					<li>Webpack</li>
+					<li>React&Redux</li>
+					<li>HTML&CSS</li>
+					<li>Tailwind CSS</li>
+					<li>SCSS</li>
+					<li>Git</li>
+					<li>GitHub</li>
+					<li>Algorithmes</li>
+					<li>DataStructure</li>
 				</ul>
 			</div>
 
-			<div className='flex flex-col bg-[#28027411] p-6'>
+			<div className='flex flex-col bg-[#0400ff18] p-6 skills'>
 				<h3 className='text-xl font-bold'>
 					Languages skills
 				</h3>
@@ -58,6 +56,16 @@ const About = ()=> {
 						<span>English</span>
 					</div>
 				</div>
+			</div>
+
+			<div className='Hire-btn flex flex-wrap justify-center items-center p-3'>
+				<h3 className='text-lg font-bold text-white'>
+					I am available for remote jobs!
+				</h3>
+
+				<button className='flex items-center text-md font-semibold'>
+					Hire me now!
+				</button>
 			</div>
 
 		</section>
