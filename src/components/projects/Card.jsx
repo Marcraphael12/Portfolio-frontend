@@ -1,10 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image2 from '../../assets/images/cards/4.jpg'
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 const Card = ()=> {
 	return (
 		<aside>
 			<div>
-				<button className='close'>
-					x
+				<button className='close flex items-center justify-center bg-white text-blue-600 p-1 mb-4'>
+					<FontAwesomeIcon icon={faClose} />
 				</button>
 			</div>
 
