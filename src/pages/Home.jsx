@@ -16,7 +16,7 @@ const Home = () => {
             Marc raphael
           </h1>
           <p className='text-[#0400ff] pl-3 pr-3 bg-white'>
-            Full-stack developper
+            Full-stack web developper
           </p>
         </div>
         
