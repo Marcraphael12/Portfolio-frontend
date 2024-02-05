@@ -11,6 +11,7 @@
 		@media (min-width: 510px) {
 			flex-direction: row;
 		}
+
 		>button {
 			border: 3px solid #fff;
 			border-radius: 5px;
@@ -33,8 +34,18 @@
 
 	>.text {
 		@media (min-width: 768px) {
-			max-width: 500px;
+			width: 100%;
 
+			>p {
+				max-width: 400px;
+			}
+		}
+	}
+
+	>.skills {
+		background-color: #0400ff18;
+		@media (min-width: 768px) {
+			padding: 100px 20px;
 		}
 	}
 
@@ -53,17 +64,21 @@
 			}
 		}
 
+		>p {
+			margin: 20px 0 20px 0;
+		}
+
 		>ul {
 			width: 100%;
 			height: auto;
 
 			>li {
 				padding: 10px 15px;
-				background-color: #280274;
+				background-color: #0400ff;
 				color: #fff;
 				font-weight: 500;
 				margin: 10px;
-				border-radius: 10px;
+				border-radius: 25px;
 
 				&:last-child {
 					margin-right: 0;
@@ -75,12 +90,12 @@
 
 			>div {
 				padding: 5px 10px;
-				border: solid 1px #a5a5a5;
+				border: solid 1px #0400ff;
 				display: flex;
 				background-color: #fff;
 
 				>span {
-					background-color: #FF004D;
+					background-color: #0400ff;
 					color: #fff;
 					font-weight: 600;
 					font-size: 12px;
