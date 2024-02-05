@@ -7,7 +7,7 @@ import image5 from '../../assets/images/cards/5.jpg'
 
 const Cards = ()=> {
   return (
-    <div className="cards">
+    <div className="cards flex flex-col items-center">
         {/*
           for each card we have:
           _ a background image
