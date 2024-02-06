@@ -11,13 +11,13 @@ const Contact = ()=> {
           Get in touch
         </h1>
 
-        <p className='mb-4'>
+        <p className='mb-4 text-center'>
           Any suggestion, issue, criticism, or you just want to say hello,
           feel free, i will be glad to answer yo!
         </p>
       </div>
 
-      <form action="" className='flex flex-col mt-4 mb-6 p-6'>
+      <form action="" className='flex flex-col mt-4 p-5 shadow shadow-black'>
         <h2 className='text-xl font-bold'>
           Whats up?
         </h2>
@@ -31,17 +31,21 @@ const Contact = ()=> {
 
           <label htmlFor="subject">Subject(required)</label>
           <input type="text" name="subject" id="subject" autoComplete='true' placeholder="Subject"/>
+        </div>
+
+        <div className='flex flex-col'>
 
           <label htmlFor="comment">Comment(required)</label>
-          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type comment"></textarea>
-
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comment"></textarea>
           <button type="submit" className='mt-4 font-bold text-md mb-5'>Contact me</button>
         </div>
+
+
       </form>
 
-      <div className='flex flex-col mt-4'>
+      <div className='flex flex-col mt-4 p-5 shadow shadow-black'>
         <h2 className='text-xl font-bold mb-4'>What is on your plan? Call me</h2>
-        <p className='mb-5'>You can get my contact information here and if you like, you can checkout my profil on social networks.</p>
+        <p className='mb-5 max-w-56'>You can get my contact information here and if you like, you can checkout my profil on social networks.</p>
 
         <ul className='flex flex-col'>
           <li>

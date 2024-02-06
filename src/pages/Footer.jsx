@@ -10,15 +10,15 @@ const Footer = ()=> {
 						<FontAwesomeIcon icon={faAngellist}/>
 					</a>
 
-					<a href="" className='text-[#2056f7]'>
+					<a href="" className='text-white'>
 						<FontAwesomeIcon icon={faLinkedin}/>
 					</a>
 
-					<a href="" className='text-blue-900'>
+					<a href="" className='text-white'>
 						<FontAwesomeIcon icon={faGithub}/>
 					</a>
 
-					<a href="" className='text-[red]'>
+					<a href="" className='text-white'>
 						<FontAwesomeIcon icon={faYoutube}/>
 					</a>
 

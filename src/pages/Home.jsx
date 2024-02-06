@@ -9,7 +9,7 @@ const Home = () => {
       <div className="df-c items-center justify-between p-6">
 
         <div className="text df-c items-center">
-          <span className='text-[#0400ff] font-bold'>
+          <span className='font-bold'>
             Hello, I am
           </span>
           <h1 className=''>
