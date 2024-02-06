@@ -12,11 +12,11 @@ const Card = ()=> {
 
 			<div>
 
-				<img src={image2} alt="project image" />
+				<img className='' src={image2} alt="project image" />
 
 				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, cumque sit eligendi eos corrupti doloremque, ea rem sapiente amet aspernatur perspiciatis iusto, ipsum evenie.</p>
-					<ul>
+					<p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, cumque sit eligendi eos corrupti doloremque, ea rem sapiente amet aspernatur perspiciatis iusto, ipsum evenie.</p>
+					<ul className=''>
 						<li><a href="">live</a></li>
 						<li><a href="">Github</a></li>
 					</ul>
