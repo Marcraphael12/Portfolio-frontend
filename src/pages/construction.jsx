@@ -1,6 +1,7 @@
 import '../styles/construction.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import l_i from '../assets/images/p_i.png'
 import a_i from '../assets/images/1_i.png'
 import b_i from '../assets/images/2_i.png'
@@ -20,7 +21,19 @@ const Construction = ()=> {
 						</span>
 					</h1>
 					<h2 className='text-center text-black font-bold bg-white w-[100%]'>
-						While waiting, Checktout some of my projects.
+						<span className='mr-4'>
+							While waiting, Checktout some of my projects.
+						</span>
+
+						<span>
+							<a href="https://www.linkedin.com/in/marc-raphael-essogo-bidzogo/" className='mr-3'>
+								<FontAwesomeIcon icon={faLinkedin}/>
+							</a>
+
+							<a href="https://github.com/Marcraphael12/" className=''>
+								<FontAwesomeIcon icon={faGithub}/>
+							</a>
+						</span>
 					</h2>
 				</div>
 
