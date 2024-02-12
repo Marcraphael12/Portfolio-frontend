@@ -13,11 +13,11 @@ const Contact = ()=> {
 
         <p className='mb-4 text-center'>
           Any suggestion, issue, criticism, or you just want to say hello,
-          feel free, i will be glad to answer yo!
+          feel free, i will be glad to talk with you!
         </p>
       </div>
 
-      <form action="" className='flex flex-col mt-4 p-5 shadow shadow-black'>
+      <form action="" className='flex flex-col mt-4 p-5 border border-black'>
         <h2 className='text-xl font-bold'>
           Whats up?
         </h2>
@@ -43,7 +43,7 @@ const Contact = ()=> {
 
       </form>
 
-      <div className='flex flex-col mt-4 p-5 shadow shadow-black'>
+      <div className='flex flex-col mt-4 p-5 border border-black'>
         <h2 className='text-xl font-bold mb-4'>What is on your plan? Call me</h2>
         <p className='mb-5 max-w-56'>You can get my contact information here and if you like, you can checkout my profil on social networks.</p>
 
