@@ -38,3 +38,34 @@ body {
 section {
   max-width: 1300px;
 }
+
+.Hire-btn {
+  width: 100% !important;
+  height: 200px !important;
+  padding: 40px 20px !important;
+  background-color: #000000;
+  margin: 50px 0 50px 0;
+
+  @media (min-width: 510px) {
+    flex-direction: row;
+  }
+
+  >button {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+
+    @media (min-width: 510px) {
+      margin-left: 20px;
+    }
+    
+    background-color: #000000;
+    &:hover {
+      background-color: #ffffff;
+      color: #003cff;
+      border-color: #2f00ff;
+    }
+  }
+}
