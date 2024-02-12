@@ -4,7 +4,7 @@ import { faAngellist, faGithub, faLinkedin, faMedium, faYoutube } from '@fortawe
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Home = () => {
   return (
-    <section id="Home" className="df-c justify-end mb-10">
+    <section id="Home" className="df-c justify-end">
 
       <div className="df-c items-center justify-between p-6">
 
@@ -15,30 +15,30 @@ const Home = () => {
           <h1 className=''>
             Marc raphael
           </h1>
-          <p className='text-[#0400ff] pl-3 pr-3 bg-white'>
+          <p className='text-[#0400ff] font-bold pl-3 pr-3 bg-white'>
             Full-stack web developper
           </p>
         </div>
         
         <ul className='flex'>
           <li className='w-40 text-lg flex flex-wrap justify-between text-white'>
-            <a href="" className='hover:text-black'>
+            <a href="" className=''>
               <FontAwesomeIcon icon={faAngellist}/>
             </a>
 
-            <a href="" className='hover:text-blue-700'>
+            <a href="" className=''>
               <FontAwesomeIcon icon={faLinkedin}/>
             </a>
 
-            <a href="" className='hover:text-[#0400ff45]'>
+            <a href="" className=''>
               <FontAwesomeIcon icon={faGithub}/>
             </a>
 
-            <a href="" className='hover:text-red-600'>
+            <a href="" className=''>
               <FontAwesomeIcon icon={faYoutube}/>
             </a>
 
-            <a href="" className='hover:text-black'>
+            <a href="" className=''>
               <FontAwesomeIcon icon={faMedium}/>
             </a>
           </li>
