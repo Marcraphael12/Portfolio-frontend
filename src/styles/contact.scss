@@ -1,7 +1,7 @@
 #Contact {
 	width: 100%;
   height: auto;
-  padding: 20px 10px;
+	padding: 80px 25px 80px 25px;
 
 	@media (min-width: 768px) {
 		flex-direction: row;
@@ -12,9 +12,17 @@
 	>div {
 		width: 100%;
 		height: auto;
-		// >h1 {
-			
-		// }
+		
+		>h1 {
+			border: #000000 solid 1px;
+			background-color: #000000;
+			padding: 10px;
+			color: #ffffff;
+			text-align: center;
+			@media (min-width: 360px) {
+				font-size: 30px;
+			}
+		}
 
 		&:last-child {
 			@media (min-width: 768px) {
@@ -40,7 +48,7 @@
 
 				>span {
 					&:first-child {
-						color: #2056f7;
+						color: #000000;
 						font-size: x-large;
 						margin-right: 10px;
 					}
@@ -76,6 +84,7 @@
 			>label {
 				width: 100%;
 				height: auto;
+				font-weight: bold;
 				color: #00ff5ea7;
 				margin-top: 20px;
 			}
@@ -83,13 +92,13 @@
 			>input, >textarea {
 				width: 100%;
 				height: auto;
-				border: #0A1D56 solid 2px;
+				border: #000000 solid 2px;
 				border-radius: 5px;
 				padding: 10px;
 				outline: none;
 				margin-top: 5px;
 				resize: none;
-
+				color: #4e4e4e;
 				
 				&:focus {
 					border-color: #2056f7;
@@ -106,13 +115,13 @@
 				padding: 10px;
 				color: #fff;
 				border-radius: 5px;
-				background-color: #0A1D56;
-				border: 3px solid #0A1D56;
+				background-color: #000;
+				border: 3px solid #000;
 				
 				
 				&:hover {
-					border-color: #00171f;
-					background-color: #00171f;
+					border-color: blue;
+					background-color: blue;
 				}
 			}
 		}
